@@ -1,0 +1,864 @@
+{
+"$schema": "http://json-schema.org/draft-04/schema#",
+"type": "object",
+"properties": {
+"vegetarian": {
+"type": "boolean"
+},
+"vegan": {
+"type": "boolean"
+},
+"glutenFree": {
+"type": "boolean"
+},
+"dairyFree": {
+"type": "boolean"
+},
+"veryHealthy": {
+"type": "boolean"
+},
+"cheap": {
+"type": "boolean"
+},
+"veryPopular": {
+"type": "boolean"
+},
+"sustainable": {
+"type": "boolean"
+},
+"lowFodmap": {
+"type": "boolean"
+},
+"weightWatcherSmartPoints": {
+"type": "integer"
+},
+"gaps": {
+"type": "string"
+},
+"preparationMinutes": {
+"type": "integer"
+},
+"cookingMinutes": {
+"type": "integer"
+},
+"aggregateLikes": {
+"type": "integer"
+},
+"healthScore": {
+"type": "integer"
+},
+"creditsText": {
+"type": "string"
+},
+"sourceName": {
+"type": "string"
+},
+"pricePerServing": {
+"type": "number"
+},
+"extendedIngredients": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"aisle": {
+"type": "string"
+},
+"image": {
+"type": "string"
+},
+"consistency": {
+"type": "string"
+},
+"name": {
+"type": "string"
+},
+"nameClean": {
+"type": "string"
+},
+"original": {
+"type": "string"
+},
+"originalName": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"meta": {
+"type": "array",
+"items": {},
+"additionalItems": true
+},
+"measures": {
+"type": "object",
+"properties": {
+"us": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+},
+"metric": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+}
+},
+"required": [
+"us",
+"metric"
+]
+}
+},
+"required": [
+"id",
+"aisle",
+"image",
+"consistency",
+"name",
+"nameClean",
+"original",
+"originalName",
+"amount",
+"unit",
+"meta",
+"measures"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"aisle": {
+"type": "string"
+},
+"image": {
+"type": "string"
+},
+"consistency": {
+"type": "string"
+},
+"name": {
+"type": "string"
+},
+"nameClean": {
+"type": "string"
+},
+"original": {
+"type": "string"
+},
+"originalName": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"meta": {
+"type": "array",
+"items": {},
+"additionalItems": true
+},
+"measures": {
+"type": "object",
+"properties": {
+"us": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+},
+"metric": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+}
+},
+"required": [
+"us",
+"metric"
+]
+}
+},
+"required": [
+"id",
+"aisle",
+"image",
+"consistency",
+"name",
+"nameClean",
+"original",
+"originalName",
+"amount",
+"unit",
+"meta",
+"measures"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"aisle": {
+"type": "string"
+},
+"image": {
+"type": "string"
+},
+"consistency": {
+"type": "string"
+},
+"name": {
+"type": "string"
+},
+"nameClean": {
+"type": "string"
+},
+"original": {
+"type": "string"
+},
+"originalName": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"meta": {
+"type": "array",
+"items": {},
+"additionalItems": true
+},
+"measures": {
+"type": "object",
+"properties": {
+"us": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+},
+"metric": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+}
+},
+"required": [
+"us",
+"metric"
+]
+}
+},
+"required": [
+"id",
+"aisle",
+"image",
+"consistency",
+"name",
+"nameClean",
+"original",
+"originalName",
+"amount",
+"unit",
+"meta",
+"measures"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"aisle": {
+"type": "string"
+},
+"image": {
+"type": "string"
+},
+"consistency": {
+"type": "string"
+},
+"name": {
+"type": "string"
+},
+"nameClean": {
+"type": "string"
+},
+"original": {
+"type": "string"
+},
+"originalName": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"meta": {
+"type": "array",
+"items": {},
+"additionalItems": true
+},
+"measures": {
+"type": "object",
+"properties": {
+"us": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+},
+"metric": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+}
+},
+"required": [
+"us",
+"metric"
+]
+}
+},
+"required": [
+"id",
+"aisle",
+"image",
+"consistency",
+"name",
+"nameClean",
+"original",
+"originalName",
+"amount",
+"unit",
+"meta",
+"measures"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"aisle": {
+"type": "string"
+},
+"image": {
+"type": "string"
+},
+"consistency": {
+"type": "string"
+},
+"name": {
+"type": "string"
+},
+"nameClean": {
+"type": "string"
+},
+"original": {
+"type": "string"
+},
+"originalName": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"meta": {
+"type": "array",
+"items": {},
+"additionalItems": true
+},
+"measures": {
+"type": "object",
+"properties": {
+"us": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+},
+"metric": {
+"type": "object",
+"properties": {
+"amount": {
+"type": "number"
+},
+"unitShort": {
+"type": "string"
+},
+"unitLong": {
+"type": "string"
+}
+},
+"required": [
+"amount",
+"unitShort",
+"unitLong"
+]
+}
+},
+"required": [
+"us",
+"metric"
+]
+}
+},
+"required": [
+"id",
+"aisle",
+"image",
+"consistency",
+"name",
+"nameClean",
+"original",
+"originalName",
+"amount",
+"unit",
+"meta",
+"measures"
+]
+}
+],
+"additionalItems": true
+},
+"id": {
+"type": "integer"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"summary": {
+"type": "null"
+},
+"cuisines": {
+"type": "array",
+"items": [
+{
+"type": "string"
+},
+{
+"type": "string"
+},
+{
+"type": "string"
+}
+],
+"additionalItems": true
+},
+"dishTypes": {
+"type": "array",
+"items": [
+{
+"type": "string"
+},
+{
+"type": "string"
+},
+{
+"type": "string"
+},
+{
+"type": "string"
+}
+],
+"additionalItems": true
+},
+"diets": {
+"type": "array",
+"items": {},
+"additionalItems": true
+},
+"occasions": {
+"type": "array",
+"items": {},
+"additionalItems": true
+},
+"instructions": {
+"type": "string"
+},
+"analyzedInstructions": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"steps": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"number": {
+"type": "integer"
+},
+"step": {
+"type": "string"
+},
+"ingredients": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"name": {
+"type": "string"
+},
+"localizedName": {
+"type": "string"
+},
+"image": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"name",
+"localizedName",
+"image"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"name": {
+"type": "string"
+},
+"localizedName": {
+"type": "string"
+},
+"image": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"name",
+"localizedName",
+"image"
+]
+}
+],
+"additionalItems": true
+},
+"equipment": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"name": {
+"type": "string"
+},
+"localizedName": {
+"type": "string"
+},
+"image": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"name",
+"localizedName",
+"image"
+]
+}
+],
+"additionalItems": true
+}
+},
+"required": [
+"number",
+"step",
+"ingredients",
+"equipment"
+]
+},
+{
+"type": "object",
+"properties": {
+"number": {
+"type": "integer"
+},
+"step": {
+"type": "string"
+},
+"ingredients": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"name": {
+"type": "string"
+},
+"localizedName": {
+"type": "string"
+},
+"image": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"name",
+"localizedName",
+"image"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"name": {
+"type": "string"
+},
+"localizedName": {
+"type": "string"
+},
+"image": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"name",
+"localizedName",
+"image"
+]
+}
+],
+"additionalItems": true
+},
+"equipment": {
+"type": "array",
+"items": {},
+"additionalItems": true
+}
+},
+"required": [
+"number",
+"step",
+"ingredients",
+"equipment"
+]
+}
+],
+"additionalItems": true
+}
+},
+"required": [
+"name",
+"steps"
+]
+}
+],
+"additionalItems": true
+},
+"originalId": {
+"type": "null"
+}
+},
+"required": [
+"vegetarian",
+"vegan",
+"glutenFree",
+"dairyFree",
+"veryHealthy",
+"cheap",
+"veryPopular",
+"sustainable",
+"lowFodmap",
+"weightWatcherSmartPoints",
+"gaps",
+"preparationMinutes",
+"cookingMinutes",
+"aggregateLikes",
+"healthScore",
+"creditsText",
+"sourceName",
+"pricePerServing",
+"extendedIngredients",
+"id",
+"title",
+"readyInMinutes",
+"servings",
+"summary",
+"cuisines",
+"dishTypes",
+"diets",
+"occasions",
+"instructions",
+"analyzedInstructions",
+"originalId"
+]
+}

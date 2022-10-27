@@ -1,0 +1,34 @@
+{
+  "meals": [
+    {
+      "id": 616080,
+      "imageType": "jpg",
+      "title": "Breakfast Potato Sausage and Egg Skillet",
+      "readyInMinutes": 50,
+      "servings": 4,
+      "sourceUrl": "http://natashaskitchen.com/2014/10/03/sausage-potato-and-egg-skillet/"
+    },
+    {
+      "id": 1088215,
+      "imageType": "jpg",
+      "title": "Chicken with coconut curry",
+      "readyInMinutes": 30,
+      "servings": 2,
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/5957/chicken-with-coconut-curry"
+    },
+    {
+      "id": 663792,
+      "imageType": "jpg",
+      "title": "Transylvanian Goulash",
+      "readyInMinutes": 45,
+      "servings": 8,
+      "sourceUrl": "https://spoonacular.com/transylvanian-goulash-663792"
+    }
+  ],
+  "nutrients": {
+    "calories": 2801.22,
+    "protein": 152.85,
+    "fat": 148.0,
+    "carbohydrates": 217.24
+  }
+}

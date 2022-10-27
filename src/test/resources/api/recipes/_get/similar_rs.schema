@@ -1,0 +1,284 @@
+{
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"imageType": {
+"type": "string"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"sourceUrl": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"imageType",
+"title",
+"readyInMinutes",
+"servings",
+"sourceUrl"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"imageType": {
+"type": "string"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"sourceUrl": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"imageType",
+"title",
+"readyInMinutes",
+"servings",
+"sourceUrl"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"imageType": {
+"type": "string"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"sourceUrl": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"imageType",
+"title",
+"readyInMinutes",
+"servings",
+"sourceUrl"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"imageType": {
+"type": "string"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"sourceUrl": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"imageType",
+"title",
+"readyInMinutes",
+"servings",
+"sourceUrl"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"imageType": {
+"type": "string"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"sourceUrl": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"imageType",
+"title",
+"readyInMinutes",
+"servings",
+"sourceUrl"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"imageType": {
+"type": "string"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"sourceUrl": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"imageType",
+"title",
+"readyInMinutes",
+"servings",
+"sourceUrl"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"imageType": {
+"type": "string"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"sourceUrl": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"imageType",
+"title",
+"readyInMinutes",
+"servings",
+"sourceUrl"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"imageType": {
+"type": "string"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"sourceUrl": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"imageType",
+"title",
+"readyInMinutes",
+"servings",
+"sourceUrl"
+]
+},
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"imageType": {
+"type": "string"
+},
+"title": {
+"type": "string"
+},
+"readyInMinutes": {
+"type": "integer"
+},
+"servings": {
+"type": "integer"
+},
+"sourceUrl": {
+"type": "string"
+}
+},
+"required": [
+"id",
+"imageType",
+"title",
+"readyInMinutes",
+"servings",
+"sourceUrl"
+]
+}
+]
+}
