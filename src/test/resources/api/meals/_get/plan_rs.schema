@@ -1,0 +1,3994 @@
+{
+"$schema": "http://json-schema.org/draft-04/schema#",
+"type": "object",
+"properties": {
+"nutritionSummary": {
+"type": "object",
+"properties": {
+"nutrients": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+}
+]
+}
+},
+"required": [
+"nutrients"
+]
+},
+"nutritionSummaryBreakfast": {
+"type": "object",
+"properties": {
+"nutrients": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "number"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+}
+]
+}
+},
+"required": [
+"nutrients"
+]
+},
+"nutritionSummaryLunch": {
+"type": "object",
+"properties": {
+"nutrients": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+}
+]
+}
+},
+"required": [
+"nutrients"
+]
+},
+"nutritionSummaryDinner": {
+"type": "object",
+"properties": {
+"nutrients": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+},
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+},
+"unit": {
+"type": "string"
+},
+"percentOfDailyNeeds": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount",
+"unit",
+"percentOfDailyNeeds"
+]
+}
+]
+}
+},
+"required": [
+"nutrients"
+]
+},
+"date": {
+"type": "integer"
+},
+"day": {
+"type": "string"
+},
+"items": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"id": {
+"type": "integer"
+},
+"slot": {
+"type": "integer"
+},
+"position": {
+"type": "integer"
+},
+"type": {
+"type": "string"
+},
+"value": {
+"type": "object",
+"properties": {
+"ingredients": {
+"type": "array",
+"items": [
+{
+"type": "object",
+"properties": {
+"name": {
+"type": "string"
+},
+"amount": {
+"type": "integer"
+}
+},
+"required": [
+"name",
+"amount"
+]
+}
+]
+}
+},
+"required": [
+"ingredients"
+]
+}
+},
+"required": [
+"id",
+"slot",
+"position",
+"type",
+"value"
+]
+}
+]
+}
+},
+"required": [
+"nutritionSummary",
+"nutritionSummaryBreakfast",
+"nutritionSummaryLunch",
+"nutritionSummaryDinner",
+"date",
+"day",
+"items"
+]
+}

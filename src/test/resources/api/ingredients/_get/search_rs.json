@@ -1,0 +1,42 @@
+[
+  {
+    "name": "pepsi",
+    "image": "coca-cola.png"
+  },
+  {
+    "name": "peppers",
+    "image": "green-pepper.jpg"
+  },
+  {
+    "name": "pepperoni",
+    "image": "pepperoni.png"
+  },
+  {
+    "name": "pepperjack cheese",
+    "image": "pepper-jack-cheese.jpg"
+  },
+  {
+    "name": "hot sauce",
+    "image": "hot-sauce-or-tabasco.png"
+  },
+  {
+    "name": "banana pepper rings",
+    "image": "wax-peppers.png"
+  },
+  {
+    "name": "banana pepper",
+    "image": "pepperoncini.jpg"
+  },
+  {
+    "name": "peppermint patties",
+    "image": "peppermint-patty.png"
+  },
+  {
+    "name": "peppermint candy",
+    "image": "candy-canes.jpg"
+  },
+  {
+    "name": "pepperoni slices",
+    "image": "pepperoni.png"
+  }
+]

@@ -10,3 +10,4 @@ src/main/resources/OnlineShop.mwb.bak
 *.iml
 *.ipr
 **/.DS_Store
+reports
