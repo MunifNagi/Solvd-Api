@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Carina Web test" parallel="methods" thread-count="5">
+
+    <test name="Web tests">
+        <classes>
+            <class name="com.solvd.carina.demo.WebTest" />
+        </classes>
+    </test>
+
+</suite>
