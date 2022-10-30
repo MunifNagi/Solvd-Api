@@ -5,20 +5,32 @@ import com.qaprosoft.carina.core.gui.AbstractUIObject;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.lang.invoke.MethodHandles;
 
 
+public class Header extends AbstractUIObject {
+    private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
-public class SideMenu extends AbstractUIObject {
-    @FindBy(xpath = "//*[@id=\"mount_0_0_ec\"]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[1]/div/div/div/div[1]/div/div/a/div")
-    private ExtendedWebElement homeButton;
+    @FindBy(xpath = "//button[contains(text(),'Log in')]")
+    private ExtendedWebElement signInButton;
+    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div")
+    private ExtendedWebElement homeLogo;
 
-    public SideMenu(WebDriver driver, SearchContext searchContext) {
+    public Header(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
-        setUiLoadedMarker(homeButton);
+        setUiLoadedMarker(homeLogo);
+        setUiLoadedMarker(signInButton);
     }
 
-    public  ExtendedWebElement getHomeButton() {
-        return homeButton;
+    public  ExtendedWebElement getSignInButton() {
+        return signInButton;
+    }
+
+    public  ExtendedWebElement getHomeLogo() {
+        return homeLogo;
     }
 
 }
