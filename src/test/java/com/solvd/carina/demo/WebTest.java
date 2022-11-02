@@ -8,8 +8,7 @@ import com.solvd.carina.demo.gui.components.VideoPost;
 import com.solvd.carina.demo.gui.pages.HomePage;
 import com.solvd.carina.demo.gui.pages.LogInPage;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.safari.SafariDriver;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -34,88 +33,73 @@ public class WebTest implements IAbstractTest {
     @Test()
     @MethodOwner(owner = "munifnagi")
     public void openHomePage() {
-        WebDriver driver = new ChromeDriver();
-        HomePage homePage = new HomePage(driver);
+        HomePage homePage = new HomePage(getDriver());
         homePage.open();
         Assert.assertTrue(homePage.isPageOpened(), "home page is not open");
-        driver.close();
     }
 
     @Test()
     @MethodOwner(owner = "munifnagi")
     public void openVideo() {
-        WebDriver driver = new ChromeDriver();
-        HomePage homePage = new HomePage(driver);
+        HomePage homePage = new HomePage(getDriver());
         homePage.open();
         Assert.assertTrue(homePage.isPageOpened(), "home page is not open");
         VideoPost video = homePage.getFirstVideo();
         video.clickVideo();
         OpenedVideo openedVideo = video.getOpenedVideo();
-        Assert.assertTrue(openedVideo.getCommentSection().isElementPresent(), "Video Wasn't opened, no comment section was present");
-        driver.close();
+        Assert.assertTrue(openedVideo.verifyCommentSectionExist(), "Video Wasn't opened, no comment section was present");
     }
 
     @Test()
     @MethodOwner(owner = "munifnagi")
     public void pauseVideo() {
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = getDriver();
         HomePage homePage = new HomePage(driver);
         homePage.open();
         Assert.assertTrue(homePage.isPageOpened(), "home page is not open");
         VideoPost video = homePage.getFirstVideo();
         video.clickVideo();
         OpenedVideo openedVideo = video.getOpenedVideo();
-        openedVideo.getCommentSection().assertElementPresent();
+        Assert.assertTrue(openedVideo.verifyCommentSectionExist());
         openedVideo.pauseVideo(driver);
-        Assert.assertTrue(openedVideo.getPlayButton().isElementPresent(), "play button is not visible and video wasn't paused");
-        driver.close();
+        Assert.assertTrue(openedVideo.verifyPlayButtonExist(), "play button is not visible and video wasn't paused");
     }
 
     @Test()
     @MethodOwner(owner = "munifnagi")
     public void shareVideo() {
-        WebDriver driver = new ChromeDriver();
-        HomePage homePage = new HomePage(driver);
+        HomePage homePage = new HomePage(getDriver());
         homePage.open();
         Assert.assertTrue(homePage.isPageOpened(), "home page is not open as expected");
         VideoPost video = homePage.getFirstVideo();
         video.clickVideo();
         OpenedVideo openedVideo = video.getOpenedVideo();
-        openedVideo.getCopyLinkButton().assertElementPresent();
-        openedVideo.getCopyLinkButton().click();
+        openedVideo.clickCopyLinkButton();
         LOGGER.info(getClipboard());
         Assert.assertTrue(getClipboard().startsWith("https://www.tiktok.com/@"), " The video link is not in the clipboard as expected");
-        driver.close();
     }
 
     @Test()
     @MethodOwner(owner = "munifnagi")
     public void testLogin() {
 
-        WebDriver driver = new ChromeDriver();
-
+        WebDriver driver = getDriver();
         LogInPage logInPage = new LogInPage(driver);
         logInPage.open();
-
         Assert.assertTrue(logInPage.isPageOpened(), "Login page is not open as expected");
         logInPage.logIn(Configuration.getEnvArg("webEmail"), Configuration.getEnvArg("webPassword"));
-
         HomePage homePage = new HomePage(driver);
         Assert.assertTrue(homePage.isPageOpened(), "Home page was not loaded after the login process");
-        driver.close();
-
     }
 
     @Test()
     @MethodOwner(owner = "munifnagi")
-    public void testFailedSignIn() {
-        WebDriver driver = new ChromeDriver();
-        LogInPage signInPage = new LogInPage(driver);
-        signInPage.open();
-        Assert.assertTrue(signInPage.isPageOpened(), "Login page is not open as expected");
-        signInPage.logIn("fakeEmail@gmail.com", "WrongPassword!");
-        Assert.assertTrue(signInPage.isPageOpened(), "Login page should be opened since login must fail");
-        driver.close();
+    public void testFailedLogIn() {
+        LogInPage logInPage = new LogInPage(getDriver());
+        logInPage.open();
+        Assert.assertTrue(logInPage.isPageOpened(), "Login page is not open as expected");
+        logInPage.logIn("fakeEmail@gmail.com", "WrongPassword!");
+        Assert.assertTrue(logInPage.isPageOpened(), "Login page should be opened since login must fail");
     }
 
     public String getClipboard() {

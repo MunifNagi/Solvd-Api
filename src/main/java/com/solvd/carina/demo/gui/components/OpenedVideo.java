@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 
 import java.lang.invoke.MethodHandles;
 
@@ -43,11 +44,21 @@ public class OpenedVideo extends AbstractUIObject {
         return commentSection;
     }
 
-    public ExtendedWebElement getPaused() {
-        return paused;
-    }
-
     public ExtendedWebElement getCopyLinkButton() {
         return copyLinkButton;
     }
+
+    public void clickCopyLinkButton() {
+        copyLinkButton.click();
+    }
+
+    public Boolean verifyCommentSectionExist() {
+        return commentSection.isElementPresent();
+    }
+
+    public Boolean verifyPlayButtonExist() {
+        return playButton.isElementPresent();
+    }
+
+
 }
